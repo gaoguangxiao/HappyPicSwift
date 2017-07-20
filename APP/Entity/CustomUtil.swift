@@ -23,5 +23,12 @@ class CustomUtil: NSObject {
         }
     }
     
+    static func saveAcessToken(token : String) {
+        USER_DEFAULT.set(token, forKey: U_TOKEN)
+        USER_DEFAULT.synchronize()
+    }
     
+    static func getToken() -> String {
+       return USER_DEFAULT.value(forKey: U_TOKEN) as! String
+    }
 }

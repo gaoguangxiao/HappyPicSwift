@@ -8,6 +8,7 @@
 
 import UIKit
 
+import SQLite
 class HomeViewController: ViewControllerImpl {
 
     
@@ -18,8 +19,13 @@ class HomeViewController: ViewControllerImpl {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
+        //创建数据库你并且链接
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        let db = try? Connection("\(path)/EagleFastSwift.sqlite3")
+        print(db!)
         //检测用户是否登陆，跳转登陆界面
-//        let islogin = CustomUtil.isUserLogin()
         if  !CustomUtil.isUserLogin(){
             let Vc = LoginViewController(nibName: "LoginViewController", bundle: nil)
             Vc.hidesBottomBarWhenPushed = true

@@ -17,14 +17,17 @@
 		9A864C571F0CDF6E00E3989C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A864C561F0CDF6E00E3989C /* HomeViewController.swift */; };
 		9A864C591F0CDF7E00E3989C /* UserCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A864C581F0CDF7E00E3989C /* UserCenterViewController.swift */; };
 		9A864C5C1F0CDFBA00E3989C /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A864C5B1F0CDFBA00E3989C /* ExchangeViewController.swift */; };
-		9A864C5E1F0CE07600E3989C /* RHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A864C5D1F0CE07600E3989C /* RHTabBarViewController.swift */; };
 		9AA914961F1DA43F007FCD95 /* CustomUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA914951F1DA43F007FCD95 /* CustomUtil.swift */; };
-		9AA914991F1DA611007FCD95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA914971F1DA611007FCD95 /* LoginViewController.swift */; };
-		9AA9149A1F1DA611007FCD95 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA914981F1DA611007FCD95 /* LoginViewController.xib */; };
 		9AA914AA1F1DACB7007FCD95 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA914A91F1DACB7007FCD95 /* UIViewController+Extension.swift */; };
 		9AA914AC1F1DAF89007FCD95 /* ViewControllerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA914AB1F1DAF89007FCD95 /* ViewControllerImpl.swift */; };
 		9AA914B61F1DBF6C007FCD95 /* Alamofire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA914B51F1DBF6C007FCD95 /* Alamofire+Extension.swift */; };
 		9AA914B81F1DD5B8007FCD95 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA914B71F1DD5B8007FCD95 /* Config.swift */; };
+		9AB0E93E1F208DCD00F37642 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0E93C1F208DCD00F37642 /* LoginViewController.swift */; };
+		9AB0E93F1F208DCD00F37642 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0E93D1F208DCD00F37642 /* LoginViewController.xib */; };
+		9AB0E9421F208E0200F37642 /* UserRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0E9401F208E0200F37642 /* UserRegViewController.swift */; };
+		9AB0E9431F208E0200F37642 /* UserRegViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0E9411F208E0200F37642 /* UserRegViewController.xib */; };
+		9AB0E9451F20953600F37642 /* UserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0E9441F20953600F37642 /* UserCenterViewController.xib */; };
+		9AB0E9471F20A19900F37642 /* RHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0E9461F20A19900F37642 /* RHTabBarViewController.swift */; };
 		9AB4246F1F0F75A200AAA441 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB4246E1F0F75A200AAA441 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -40,15 +43,18 @@
 		9A864C561F0CDF6E00E3989C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9A864C581F0CDF7E00E3989C /* UserCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterViewController.swift; sourceTree = "<group>"; };
 		9A864C5B1F0CDFBA00E3989C /* ExchangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
-		9A864C5D1F0CE07600E3989C /* RHTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHTabBarViewController.swift; sourceTree = "<group>"; };
 		9AA914951F1DA43F007FCD95 /* CustomUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUtil.swift; sourceTree = "<group>"; };
-		9AA914971F1DA611007FCD95 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = APP/Entity/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
-		9AA914981F1DA611007FCD95 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = APP/Entity/LoginViewController.xib; sourceTree = SOURCE_ROOT; };
 		9AA9149C1F1DA642007FCD95 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9AA914A91F1DACB7007FCD95 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		9AA914AB1F1DAF89007FCD95 /* ViewControllerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerImpl.swift; sourceTree = "<group>"; };
 		9AA914B51F1DBF6C007FCD95 /* Alamofire+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extension.swift"; sourceTree = "<group>"; };
 		9AA914B71F1DD5B8007FCD95 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		9AB0E93C1F208DCD00F37642 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9AB0E93D1F208DCD00F37642 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9AB0E9401F208E0200F37642 /* UserRegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegViewController.swift; sourceTree = "<group>"; };
+		9AB0E9411F208E0200F37642 /* UserRegViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserRegViewController.xib; sourceTree = "<group>"; };
+		9AB0E9441F20953600F37642 /* UserCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterViewController.xib; sourceTree = "<group>"; };
+		9AB0E9461F20A19900F37642 /* RHTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHTabBarViewController.swift; sourceTree = "<group>"; };
 		9AB4246E1F0F75A200AAA441 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B640E87ED4A079F025132425 /* Pods-EagleFastSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleFastSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EagleFastSwift/Pods-EagleFastSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		EFC471813F64E96EEF02E06C /* Pods-EagleFastSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleFastSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EagleFastSwift/Pods-EagleFastSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,15 +105,15 @@
 			children = (
 				9AA9149B1F1DA642007FCD95 /* Config */,
 				9AA914941F1DA408007FCD95 /* Entity */,
-				9A864C5A1F0CDFAD00E3989C /* Exchange */,
 				9A864C451F0CDF4100E3989C /* AppDelegate.swift */,
 				9A864C461F0CDF4100E3989C /* Assets.xcassets */,
 				9A864C471F0CDF4100E3989C /* LaunchScreen.storyboard */,
 				9A864C491F0CDF4100E3989C /* Main.storyboard */,
 				9A864C4B1F0CDF4100E3989C /* Home */,
-				9A864C4C1F0CDF4100E3989C /* Info.plist */,
+				9A864C5A1F0CDFAD00E3989C /* Exchange */,
 				9A864C4D1F0CDF4100E3989C /* UseCenter */,
-				9A864C4E1F0CDF4100E3989C /* User */,
+				9AB0E93B1F208DCD00F37642 /* User */,
+				9A864C4C1F0CDF4100E3989C /* Info.plist */,
 				9A864C4F1F0CDF4100E3989C /* ViewController.swift */,
 			);
 			path = APP;
@@ -118,7 +124,6 @@
 			children = (
 				9A864C561F0CDF6E00E3989C /* HomeViewController.swift */,
 				9AB4246E1F0F75A200AAA441 /* HomeViewController.xib */,
-				9A864C5D1F0CE07600E3989C /* RHTabBarViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -127,17 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				9A864C581F0CDF7E00E3989C /* UserCenterViewController.swift */,
+				9AB0E9441F20953600F37642 /* UserCenterViewController.xib */,
 			);
 			path = UseCenter;
-			sourceTree = "<group>";
-		};
-		9A864C4E1F0CDF4100E3989C /* User */ = {
-			isa = PBXGroup;
-			children = (
-				9AA914971F1DA611007FCD95 /* LoginViewController.swift */,
-				9AA914981F1DA611007FCD95 /* LoginViewController.xib */,
-			);
-			path = User;
 			sourceTree = "<group>";
 		};
 		9A864C5A1F0CDFAD00E3989C /* Exchange */ = {
@@ -177,10 +174,22 @@
 		9AA9149F1F1DAB2E007FCD95 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9AB0E9461F20A19900F37642 /* RHTabBarViewController.swift */,
 				9AA914A91F1DACB7007FCD95 /* UIViewController+Extension.swift */,
 				9AA914AB1F1DAF89007FCD95 /* ViewControllerImpl.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9AB0E93B1F208DCD00F37642 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0E93C1F208DCD00F37642 /* LoginViewController.swift */,
+				9AB0E93D1F208DCD00F37642 /* LoginViewController.xib */,
+				9AB0E9401F208E0200F37642 /* UserRegViewController.swift */,
+				9AB0E9411F208E0200F37642 /* UserRegViewController.xib */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		ADB37295D22A92F62836F8A7 /* Frameworks */ = {
@@ -257,9 +266,11 @@
 			files = (
 				9A864C511F0CDF4100E3989C /* Assets.xcassets in Resources */,
 				9A864C531F0CDF4100E3989C /* Main.storyboard in Resources */,
-				9AA9149A1F1DA611007FCD95 /* LoginViewController.xib in Resources */,
+				9AB0E9431F208E0200F37642 /* UserRegViewController.xib in Resources */,
 				9AB4246F1F0F75A200AAA441 /* HomeViewController.xib in Resources */,
+				9AB0E9451F20953600F37642 /* UserCenterViewController.xib in Resources */,
 				9A864C521F0CDF4100E3989C /* LaunchScreen.storyboard in Resources */,
+				9AB0E93F1F208DCD00F37642 /* LoginViewController.xib in Resources */,
 				9A864C541F0CDF4100E3989C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,17 +330,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A864C5E1F0CE07600E3989C /* RHTabBarViewController.swift in Sources */,
 				9AA914B61F1DBF6C007FCD95 /* Alamofire+Extension.swift in Sources */,
 				9A864C591F0CDF7E00E3989C /* UserCenterViewController.swift in Sources */,
+				9AB0E9421F208E0200F37642 /* UserRegViewController.swift in Sources */,
 				9AA914961F1DA43F007FCD95 /* CustomUtil.swift in Sources */,
 				9A864C5C1F0CDFBA00E3989C /* ExchangeViewController.swift in Sources */,
+				9AB0E9471F20A19900F37642 /* RHTabBarViewController.swift in Sources */,
 				9AA914B81F1DD5B8007FCD95 /* Config.swift in Sources */,
-				9AA914991F1DA611007FCD95 /* LoginViewController.swift in Sources */,
 				9A864C501F0CDF4100E3989C /* AppDelegate.swift in Sources */,
 				9AA914AC1F1DAF89007FCD95 /* ViewControllerImpl.swift in Sources */,
 				9A864C551F0CDF4100E3989C /* ViewController.swift in Sources */,
 				9AA914AA1F1DACB7007FCD95 /* UIViewController+Extension.swift in Sources */,
+				9AB0E93E1F208DCD00F37642 /* LoginViewController.swift in Sources */,
 				9A864C571F0CDF6E00E3989C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
