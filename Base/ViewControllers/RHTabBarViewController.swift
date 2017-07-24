@@ -16,7 +16,6 @@ class RHTabBarViewController: UITabBarController {
         //设置导航栏为指引项
         let homeNavi = UINavigationController.init(rootViewController: home)
         
-        let exChange = ExchangeViewController()
         
         
         let userCenter = UserCenterViewController()
@@ -24,10 +23,6 @@ class RHTabBarViewController: UITabBarController {
         
         let item1 : UITabBarItem = UITabBarItem (title: "首页", image: UIImage(named: "tabbarDingdan_hui"), selectedImage: UIImage(named: "tabbarDingdan"))
         home.tabBarItem = item1
-        
-//        let item2 : UITabBarItem = UITabBarItem (title: "充值", image: UIImage(named: "tabbarExchange_hui"), selectedImage: UIImage(named: "tabbarExchange"))
-//        exChange.tabBarItem = item2
-        
         let item3 : UITabBarItem = UITabBarItem (title: "个人中心", image: UIImage(named: "tabbarMy"), selectedImage: UIImage(named: "tabbarMy_hui"))
         userCenter.tabBarItem = item3
         

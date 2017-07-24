@@ -1,0 +1,6 @@
+framework module Pods_GuessStone {
+  umbrella header "Pods-GuessStone-umbrella.h"
+
+  export *
+  module * { export * }
+}
